@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  overflow-x: hidden; 
+  width: 100%;
+}
+.main_container {
+  padding: 4vw;
+  background-color: rgba(27, 4, 92, 0.462);
+  height: 100%;
+  color: white;
+  width: 100vw;
+}
+.h1 {
+  text-align: center;
+  font-size: 4vw;   
+  margin-bottom: 2vh;
+  color: #8ec5ff;
+  margin-top: -1vh;
+}
+.div {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;        
+  gap: 2%;
+  margin: auto;
+  margin-top: 5%;
+}
+.learn_div {
+  margin-top: 5vh;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%;
+  background: rgba(255,255,255,0.03);
+  border-radius: 2%;
+  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow: 0 1.2vw 3vw rgba(0,0,0,0.25);
+}
+.learn_h1 {
+  font-size: 3.8vw;
+  color: #72b2f7;
+  margin-bottom: 1vh;
+  text-align: center;
+}
+.learn_para {
+  color: #dfefff;
+  font-size: 1vw;
+  line-height: 1.8;
+  opacity: 0.95;
+  margin: 0;
+}

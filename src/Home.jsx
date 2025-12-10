@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './Home.module.css'
 import { useNavigate } from 'react-router-dom';
+import photo from './assets/vecteezy_man-waving-with-laptop_10913126.jpg'
 function Home() {
     console.log("in Home");
     const navigate=useNavigate();
@@ -24,7 +25,7 @@ function Home() {
        </div>
        <div className={style.child_sub_container}>
         <div className={style.profile_photo}>
-            <img  className={style.img}src="https://images.pexels.com/photos/17515211/pexels-photo-17515211.jpeg?_gl=1*18j5olm*_ga*MTE2MTI3NzEzOC4xNzQzNDk4OTM5*_ga_8JE65Q40S6*czE3NjUxMzE5MTQkbzgkZzEkdDE3NjUxMzE5NDgkajI2JGwwJGgw" alt="Profile" height={700} width={500}/>
+          <img  className={style.img}src={photo} alt="Profile" height={700} width={500}/>
         </div>
        </div>
 

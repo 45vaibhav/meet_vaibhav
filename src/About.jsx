@@ -2,6 +2,7 @@ import React from 'react'
 import style from './About.module.css'
 import{ data} from './Data'
 import Skill from './Skill'
+import photo from './assets/vecteezy_masculine-man-character_16756455.jpg'
 function About() {
   return (
     
@@ -20,7 +21,7 @@ function About() {
              </div>
              <div className={style.child_sub_container}>
               <div className={style.profile_photo}>
-                  <img  className={style.img}src="https://images.pexels.com/photos/17515211/pexels-photo-17515211.jpeg?_gl=1*18j5olm*_ga*MTE2MTI3NzEzOC4xNzQzNDk4OTM5*_ga_8JE65Q40S6*czE3NjUxMzE5MTQkbzgkZzEkdDE3NjUxMzE5NDgkajI2JGwwJGgw" alt="Profile" height={700} width={550}/>
+                  <img  className={style.img}src={photo} alt="Profile" height={700} width={550}/>
               </div>
              </div>
       
